@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 500px;
+    cursor: pointer;
+}
+
+.logo {
+    padding: 30px;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    width: 32px;
+    height: 44px;
+    border: 1px solid grey;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border-right: none;
+
+}
+
+.search-icon img{
+    width: 24px;
+    padding-left: 20px;
+}
+
+input{
+    width: 561px;
+    height: 44px;
+    border-left: none;
+    border-right: none;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    padding-left: 20px;
+
+    
+}
+
+.voice-search{
+    height: 44px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+
+.voice-search img{
+    width: 26px;
+    padding-right: 20px;
+}
+
+.picture-search{
+    height: 44px;
+    border: 1px solid grey;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: none;
+    cursor: pointer;
+}
+
+.picture-search img{
+    width: 26px;
+    padding-right: 20px;
+}
+
+.circle img{
+    width: 24px;
+    border: 10px solid #d3e3fd;
+    background-color: #d3e3fd;
+    border-radius: 20px;
+    /* margin: 16px 28px 0px; */
+    
+}
+
+.circle{
+    margin-top: 15px;
+}
+
+.text p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 88px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.circle-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
